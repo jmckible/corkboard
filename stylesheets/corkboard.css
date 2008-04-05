@@ -1,0 +1,112 @@
+a { text-decoration: none;  color: #06f; }
+a:hover { color: #f00; }
+a img   { border: 0; }
+
+body{
+  margin:0;
+  padding: 0;
+  font-family: helvetica, verdana, sans-serif;
+  font-size: medium;
+  margin: 0;
+  padding: 0;
+  color: #333;
+	/*background: #fff url('/~jmckible/images/gridbg.gif');*/
+}
+/* adjustment for IE5 */
+body {
+	font-size: small; /* IE5 Win */
+  voice-family: "\"}\""; 
+  voice-family: inherit;
+  font-size: medium;
+}
+
+#Content{
+  width: 720px;
+  margin: 0 auto;
+}
+
+#Copy{
+  float: left;
+  width: 430px;
+  margin: 1em 0 0 0;
+}
+
+#Copy p { margin-bottom: 2.45em;}
+
+h1{
+  font-size: 1.66em;
+  margin: 0 0 0 0;
+  padding: 0;
+  font-weight: normal;
+	line-height: 1em;
+}
+
+h2{
+  font-size: 1.33em;
+  line-height: 1em;
+  font-weight: normal;
+  margin: 0;
+}
+
+.explaination{
+  margin: 0 0 0 5px;
+  width: 200px;
+  line-height: 1.2em;
+  font-size: 90%;
+}
+
+#Footer{
+  margin: 50px 0 50px 0;
+  padding: 0.25em 0;
+  border-top: 1px solid #ddd;
+  width: 720px;
+  clear:both;
+}
+#Footer p{
+  margin: 0;
+  padding: 0;
+  color: #999;
+  font-size: 90%;
+  line-height: 1.2em;
+}
+
+#Logo{
+	margin: 20px 0 1.8em 0;
+}
+
+.logo {
+  float: left;
+}
+
+p{
+  margin: 0 0 1.1em 0;
+  padding: 0;
+  line-height: 1.38em;
+  font-family: georgia, serif; 
+}
+
+#Pager {
+  height: 10px; 
+  background-color: #f90;
+  margin-bottom: 12px;
+}
+
+#Sidebar{
+  margin: 4.2em 0 0 500px;
+  width: 217px;
+  font-size: 80%;
+  color: #666;
+}
+
+#Sidebar h1{
+  font-size: 130%;
+  margin-bottom: 0.24em;
+  letter-spacing: -1px;
+  line-height: 1em;
+}
+
+#Sidebar p{
+  font-family: helvetica;
+	line-height: 1.75em;
+	margin-bottom: 1.7em;
+}
